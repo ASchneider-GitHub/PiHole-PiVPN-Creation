@@ -3,7 +3,7 @@
 
 1. [Burning Raspberry Pi OS Lite](#Burning-Raspberry-Pi-OS-Lite)
 2. [Enabling SSH and getting the RasPi IP address](#Enabling-SSH-and-getting-the-RasPi-IP-address)
-3. [Connecting-to-the-RasPi-and-updating-it](#Updating-the-RasPi-and-installing-QoL-packages)
+3. [Connecting to the RasPi and updating it](#Connecting-to-the-RasPi-and-updating-it)
 4. [Installing and configuring PiHole](#Installing-and-configuring-PiHole)
 5. [Accessing the PiHole and adding blocklists/regex filters](#Accessing-the-PiHole-and-adding-blocklistsregex-filters)
 6. [Creating and configuring whitelists](#Creating-and-configuring-whitelists)
