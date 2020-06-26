@@ -118,13 +118,15 @@
 In order to prevent commonly-used websites from breaking due to false-positives, we can whitelist entire domains from being affected by the PiHole. A convenient tool was created by another individual and is available on GitHub [here](https://github.com/anudeepND/whitelist). We'll use it to update the whitelists en masse.
 
 1. Switch back to your SSH session with the RasPi, and run the commands below, one by one, in the order that they're listed:
-`cd ~`
-`git clone https://github.com/anudeepND/whitelist.git`
-`cd whitelist/scripts`
-`sudo ./whitelist.sh`
-`cd /opt/`
-`sudo git clone https://github.com/anudeepND/whitelist.git`
-`sudo vim /etc/crontab`
+```
+cd ~
+git clone https://github.com/anudeepND/whitelist.git
+cd whitelist/scripts
+sudo ./whitelist.sh
+cd /opt/
+sudo git clone https://github.com/anudeepND/whitelist.git
+sudo vim /etc/crontab
+```
 
 2.  Once the vim editor has opened the `crontab` document, add the following line to the bottom of the file on its own line:
 `0 1 * * */7 root /opt/whitelist/scripts/whitelist.sh`
