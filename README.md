@@ -19,3 +19,6 @@ _These are the lists I used. Other lists are available in source section, and in
 
 ### Installation Instructions and Resources:
 For a guide on how to set up the PiHole, along with adding blocklists, regex, and whitelists, click [here](https://github.com/ASchneider-GitHub/PiHole-Creation/blob/master/Creation-Guide.md)
+
+### Miscellaneous Notes:
+- The `Creation-Guide.md` document was created using [stackedit.io](https://stackedit.io/app) to provide a live Markdown preview
