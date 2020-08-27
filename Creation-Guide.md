@@ -79,19 +79,14 @@
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-ads.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-crypto.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-drugs.txt
-	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-facebook.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-fraud.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-gambling.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-malware.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-phishing.txt
-	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-piracy.txt
-	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-porn.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-ransomware.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-redirect.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-scam.txt
-	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-torrent.txt
 	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-tracking.txt
-	https://raw.githubusercontent.com/ASchneider-GitHub/PiHole-Creation/master/Raw-Lists/BlocklistProject-youtube.txt
 	```
 6. Once the blocklists have been added to the "Adlists" menu, click on "Blacklist" in the left-hand navigation bar, and switch to "RegEx filter". Copy and paste the entire block below into the "Regular Expression" field and press "Add to Blacklist". This will create 16 separate RegEx filters for the Gravity to use as a backup ad-catch:
 	```
