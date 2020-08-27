@@ -54,18 +54,19 @@
 3. Delete the single entry in the "List of configured adlists" section to completely clear the PiHole's gravity.
 4. Copy and paste the entire block below into the "Address" field at the top of the page, and press "Add". This will enter all 12 URLs as individual entries in the Gravity:
 	```
-	https://hosts.oisd.nl
-	https://blocklist.site/app/dl/ads
-	https://blocklist.site/app/dl/crypto
-	https://blocklist.site/app/dl/drugs
-	https://blocklist.site/app/dl/fraud
-	https://blocklist.site/app/dl/gambling
-	https://blocklist.site/app/dl/malware
-	https://blocklist.site/app/dl/phishing
-	https://blocklist.site/app/dl/ransomware
-	https://blocklist.site/app/dl/scam
-	https://blocklist.site/app/dl/spam
-	https://blocklist.site/app/dl/tracking
+    https://hosts.oisd.nl
+    https://blocklistproject.github.io/Lists/abuse.txt
+    https://blocklistproject.github.io/Lists/ads.txt
+    https://blocklistproject.github.io/Lists/crypto.txt
+    https://blocklistproject.github.io/Lists/drugs.txt
+    https://blocklistproject.github.io/Lists/fraud.txt
+    https://blocklistproject.github.io/Lists/gambling.txt
+    https://blocklistproject.github.io/Lists/malware.txt
+    https://blocklistproject.github.io/Lists/phishing.txt
+    https://blocklistproject.github.io/Lists/ransomware.txt
+    https://blocklistproject.github.io/Lists/redirect.txt
+    https://blocklistproject.github.io/Lists/scam.txt
+    https://blocklistproject.github.io/Lists/tracking.txt
 	```
 5. Once the 12 entries above have been added, switch back to your SSH session with the RasPi, and run the command `pihole -g`. This will download all of the blockslists and add them to the PiHole's Gravity. This step can take a while, as it has to deal with over a million unique domains. 
 
