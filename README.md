@@ -3,19 +3,20 @@ Kudos to the PiHole team for this tool. More info at [https://pi-hole.net](https
 
 ### Lists of Used Blocklists:
 - [https://hosts.oisd.nl](https://hosts.oisd.nl)
-- [https://blocklist.site/app/dl/ads](https://blocklist.site/app/dl/ads)
-- [https://blocklist.site/app/dl/crypto](https://blocklist.site/app/dl/crypto)
-- [https://blocklist.site/app/dl/drugs](https://blocklist.site/app/dl/drugs)
-- [https://blocklist.site/app/dl/fraud](https://blocklist.site/app/dl/fraud)
-- [https://blocklist.site/app/dl/gambling](https://blocklist.site/app/dl/gambling)
-- [https://blocklist.site/app/dl/malware](https://blocklist.site/app/dl/malware)
-- [https://blocklist.site/app/dl/phishing](https://blocklist.site/app/dl/phishing)
-- [https://blocklist.site/app/dl/ransomware](https://blocklist.site/app/dl/ransomware)
-- [https://blocklist.site/app/dl/scam](https://blocklist.site/app/dl/scam)
-- [https://blocklist.site/app/dl/spam](https://blocklist.site/app/dl/spam)
-- [https://blocklist.site/app/dl/tracking](https://blocklist.site/app/dl/tracking)
+- [https://blocklistproject.github.io/Lists/abuse.txt](https://blocklistproject.github.io/Lists/abuse.txt)
+- [https://blocklistproject.github.io/Lists/ads.txt](https://blocklistproject.github.io/Lists/ads.txt)
+- [https://blocklistproject.github.io/Lists/crypto.txt](https://blocklistproject.github.io/Lists/crypto.txt)
+- [https://blocklistproject.github.io/Lists/drugs.txt](https://blocklistproject.github.io/Lists/drugs.txt)
+- [https://blocklistproject.github.io/Lists/fraud.txt](https://blocklistproject.github.io/Lists/fraud.txt)
+- [https://blocklistproject.github.io/Lists/gambling.txt](https://blocklistproject.github.io/Lists/gambling.txt)
+- [https://blocklistproject.github.io/Lists/malware.txt](https://blocklistproject.github.io/Lists/malware.txt)
+- [https://blocklistproject.github.io/Lists/phishing.txt](https://blocklistproject.github.io/Lists/phishing.txt)
+- [https://blocklistproject.github.io/Lists/ransomware.txt](https://blocklistproject.github.io/Lists/ransomware.txt)
+- [https://blocklistproject.github.io/Lists/redirect.txt](https://blocklistproject.github.io/Lists/redirect.txt)
+- [https://blocklistproject.github.io/Lists/scam.txt](https://blocklistproject.github.io/Lists/scam.txt)
+- [https://blocklistproject.github.io/Lists/tracking.txt](https://blocklistproject.github.io/Lists/tracking.txt)
 
-_These are the lists I used. Other lists are available in source section, and in backup `Raw-Lists` folder in case the original source is down or missing. Last `Raw-Lists` folder backup was: **06/25/2020**_
+_These are the lists I used. Other lists are available in source section, and in backup `Raw-Lists` folder in case the original source is down or missing. Last `Raw-Lists` folder backup was: **08/27/2020**_
 
 ### Installation Instructions and Resources:
 For a guide on how to set up the PiHole, along with adding blocklists, regex, and whitelists, click [here](https://github.com/ASchneider-GitHub/PiHole-Creation/blob/master/Creation-Guide.md)
