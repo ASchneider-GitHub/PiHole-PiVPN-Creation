@@ -34,7 +34,7 @@
 
 ---
 ### Installing and configuring PiHole
-1. While still using SSH to access the RasPi, run `sudo curl -sSL https://install.pi-hole.net` | `bash` to begin the automatic installation process. (Include everything from `sudo` to `bash` in the same command. Markdown doesn't handle pipe characters well with inline code)
+1. While still using SSH to access the RasPi, run `sudo curl -sSL https://install.pi-hole.net | bash` to begin the automatic installation process. (Include everything from `sudo` to `bash` in the same command. Markdown doesn't handle pipe characters well with inline code)
 2. Once the installer shows the message "This installer will transform your device into a network-wide ad blocker!", the following settings should be used:
 	1. **Upstream DNS Provider:** User's choice, but I lean towards Cloudflare. Arrow up or down until you're hovering over your choice, and then press enter.
 	2. **Third party block list(s):** I don't use any of these, but if you don't select at least one, the installation breaks. Deselect all but one entry by using the arrow keys and spacebar, and then press enter. The blocklist you choose here will be removed later anyway.
