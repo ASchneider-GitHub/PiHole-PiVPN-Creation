@@ -1,4 +1,3 @@
-
 ## Guide Steps
 
 1. [Burning Raspberry Pi OS Lite](#Burning-Raspberry-Pi-OS-Lite)
@@ -118,14 +117,14 @@ In order to prevent commonly-used websites from breaking due to false-positives,
 cd ~
 git clone https://github.com/anudeepND/whitelist.git
 cd whitelist/scripts
-sudo ./whitelist.sh
+sudo ./whitelist.py
 cd /opt/
 sudo git clone https://github.com/anudeepND/whitelist.git
 sudo vim /etc/crontab
 ```
 
 2.  Once the vim editor has opened the `crontab` document, add the following line to the bottom of the file on its own line:
-`0 1 * * */7 root /opt/whitelist/scripts/whitelist.sh`
+`0 1 * * */7 root /opt/whitelist/scripts/whitelist.py`
 
 3. Save your edits and quit the editor. This addition to the `crontab` file will make the RasPi check for whitelist updates every Sunday.
 
