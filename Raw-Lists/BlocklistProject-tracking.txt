@@ -1,6 +1,5 @@
-
 #------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# Title: The Block List Project - Tracking List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
@@ -14,15 +13,15 @@
 #
 # tracking list
 #------------------------------------[FILTERS]-------------------------------------
-# 0.0.0.0 footprint.net Resolved issue #29
-# 0.0.0.0 hubspot.com Removed per issue 52
+# 0.0.0.0 footprint.net Resolved Issue 29
+# 0.0.0.0 hubspot.com Issue 52
 # 0.0.0.0 intercomassets.com Issue 48
 # 0.0.0.0 newrelic.com Issue 53
-#0.0.0.0 byside.com issue #10
-#0.0.0.0 counters.gigya.com removed per issue 7
-#0.0.0.0 gigya.com removed per issue 7
-#0.0.0.0 ipinfo.io Removed per issue #21
-#0.0.0.0 yospace.com issue #12
+# 0.0.0.0 byside.com Issue 10
+# 0.0.0.0 counters.gigya.com Issue 7
+# 0.0.0.0 gigya.com Issue 7
+# 0.0.0.0 ipinfo.io Issue 21
+# 0.0.0.0 yospace.com Issue 12
 0.0.0.0 1-cl0ud.com
 0.0.0.0 1-creative-1.com
 0.0.0.0 1000mercis.com
@@ -610,6 +609,7 @@
 0.0.0.0 analytics.nznweb.com.br
 0.0.0.0 analytics.pixeltricks.de
 0.0.0.0 analytics.plex.tv
+0.0.0.0 analytics.prod.mybuddy.ai
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 analytics.sapo.pt
 0.0.0.0 analytics.schoolwires.com
@@ -13130,7 +13130,7 @@
 0.0.0.0 nnn.ru
 0.0.0.0 nobeta.com.br
 0.0.0.0 nodes.npm9sh75p.com
-0.0.0.0 nosto.com
+# 0.0.0.0 nosto.com Issue 132
 0.0.0.0 notice1-09.com
 0.0.0.0 notice1-11.com
 0.0.0.0 notice1-12.com
@@ -13436,7 +13436,7 @@
 0.0.0.0 prfhn.com
 0.0.0.0 pricespider.com
 0.0.0.0 primefuse.com
-0.0.0.0 priority-static-api.nkstatic.com
+# 0.0.0.0 priority-static-api.nkstatic.com Issue 141
 0.0.0.0 privacy.aol.com
 0.0.0.0 privateebusiness.com
 0.0.0.0 privatescale.com
@@ -15075,3 +15075,9 @@
 0.0.0.0 zylpfood.com
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
+0.0.0.0 src.labeldollars.com
+0.0.0.0 tracker.nice-prod.pro
+0.0.0.0 vasgenerete.site
+0.0.0.0 ntvp.wpu.sh
+0.0.0.0 notification.tubecup.net
+0.0.0.0 rebrandlydomain.com
