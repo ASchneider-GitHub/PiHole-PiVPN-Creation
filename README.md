@@ -19,8 +19,8 @@ Kudos to the PiHole team for this tool. More info at [https://pi-hole.net](https
 _These are the lists I used. Other lists are available in source section, and in backup `Raw-Lists` folder in case the original source is down or missing. Last `Raw-Lists` folder backup was: **06/11/2021**_
 
 ### Installation Instructions and Resources:
-For a guide on how to set up the PiHole, along with adding blocklists, regex, and whitelists, click [here](https://github.com/ASchneider-GitHub/PiHole-Creation/blob/master/PiHole-Creation-Guide.md)
-For a guide on how to set up the PiVPN server, along with creating client config files, click [here](https://github.com/ASchneider-GitHub/PiHole-Creation/blob/master/PiVPN-Creation-Guide.md)
+- For a guide on how to set up the PiHole, along with adding blocklists, regex, and whitelists, click [here](https://github.com/ASchneider-GitHub/PiHole-Creation/blob/master/PiHole-Creation-Guide.md)
+- For a guide on how to set up the PiVPN server, along with creating client config files, click [here](https://github.com/ASchneider-GitHub/PiHole-Creation/blob/master/PiVPN-Creation-Guide.md)
 
 ### Miscellaneous Notes:
 - The creation guide documents were drafted using [stackedit.io](https://stackedit.io/app) to provide a live Markdown preview
